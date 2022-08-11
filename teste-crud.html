@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arnia</title>
+  <link rel="stylesheet" href="./style-1.css">
+</head>
+<body>
+  <div class="faixa-roxa"></div>
+  <div class="container">
+    <img class="logo-arnia" src="./logo/Asset 3@4x 1.png" alt="">
+    <div class="header">
+      <img class="vector"  src="./icon/Vector.svg" width="17px">
+      <span class="gerencia"> Gerenciador de tarefas</span>
+    </div>
+    <div><button onclick="openModal()" class="botaoAdd" id="new">+ Adiciona nova tarefa</button></div>
+    <div class="divTable">
+      <table>
+        <thead>
+          <tr>
+            <th>Numero</th>
+            <th>Descrição</th>
+            <th>Data</th>
+            <th>Status</th>
+            <th class="acao">Ação</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="modal-container">
+      <div class="modal">
+        <form>
+          <label for="m-numero">Numero</label>
+          <input id="m-numero" type="number" required />
+  
+          <label for="m-descricao">descricao</label>
+          <input id="m-descricao" type="text" required />
+          <label for="m-data">Data</label>
+          <input id="m-data" type="date" required/>
+          <label for="m-status">Status</label>
+          
+          <select id="m-option" required>
+            <option id="option1" class="green">Completo</option>
+            <option id="option2">Andamento</option>
+            <option id="option3">Stopped</option>
+          </select>
+
+          <button id="btnSalvar">Salvar</button>
+          <ul id="modalClose">cancelar</ul>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <script src="./script-teste.js"></script>
+</body>
+
+</html>
