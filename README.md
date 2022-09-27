@@ -1,6 +1,9 @@
-# Projeto Gestor de tarefas
+<h1> Projeto Gestor de tarefas<h1>
+<p>
+ <img src="logo/Projeto-arnia.webp">
+</p>
 
-# Sobre o projeto
+<h2> Sobre o projeto</h2>
 
 https://odarajs.github.io/Gestor-de-tarefas/teste-crud.html
 
